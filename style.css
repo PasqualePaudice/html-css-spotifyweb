@@ -375,6 +375,7 @@ footer {
     display: flex ;
     justify-content: space-between;
 
+
 }
 footer div{
     padding: 5px 10px;
@@ -430,11 +431,11 @@ footer img{
     align-items: center;
     justify-content: center;
      color: #b3b3b3;
-     font-size: 20px;
+     font-size: 14px;
 }
 
 .fa-pause-circle{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .bianco-hover:hover{
@@ -456,7 +457,6 @@ footer img{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
     align-items: center;
     display: flex;
 
@@ -467,27 +467,14 @@ footer img{
     font-size: 10px;
     margin: 0 10px;
 }
-.linea{
-    height: 1px;
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.cerchio{
-    width: 20px;
-    height:20px;
-    background-color: white;
-    border-radius: 100%;
-}
+
+
 
 .slider {
   -webkit-appearance: none;
   width: 40%;
-  height: 10px;
+  height: 5px;
   background:  rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   outline: none;
@@ -503,8 +490,8 @@ footer img{
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
   background: white;
   cursor: pointer;
@@ -519,10 +506,7 @@ footer img{
 
 
 .lato {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color:  rgba(255, 255, 255, 0.5);
+    display: none;
 
 }
 
@@ -577,6 +561,39 @@ footer img{
 
 
 
+    .lato {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color:  rgba(255, 255, 255, 0.5);
+
+    }
+
+    .icone{
+         font-size: 20px;
+    }
+
+    .fa-pause-circle{
+        font-size: 30px;
+    }
+
+
+
+
+    .slider {
+
+      height: 10px;
+
+    }
+
+
+
+    .slider::-webkit-slider-thumb {
+
+      width: 15px;
+      height: 15px;
+
+    }
 
 
 
@@ -591,7 +608,9 @@ footer img{
 
 
 @media screen and (min-width: 992px){
-
+    main{
+        height: 100vh;
+    }
     .cont-nav{
         justify-content: space-around;
     }
