@@ -5,6 +5,9 @@
     font-family: 'Overpass', sans-serif;
 }
 
+.tablet {
+    display: none;
+}
 
 
 .clearfix{
@@ -43,17 +46,25 @@
 
 }
 
+
+.spotify svg{
+    display: none;
+    margin:auto;
+}
+
 .spotify .fa-spotify{
     margin:auto;
 
 }
 
 .home{
-
+    display: flex;
     padding:10px 0;
     display: flex;
     justify-content: center;
+
     color: rgba(255, 255, 255, 0.5);
+
 }
 
 .home:hover {
@@ -67,7 +78,15 @@
     margin-top: 40px;
     padding:  10px 0;
     color: rgba(255, 255, 255, 0.5);
+
+
 }
+
+.centra-verticale-flex {
+    align-self: center;
+    margin-left: 10px;
+}
+
 
 .search:hover {
     color:white;
@@ -75,10 +94,16 @@
 
 
 .book {
+
+    display: flex;
+    padding:10px 0;
     display: flex;
     justify-content: center;
-    padding:  10px 0;
     color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+
+
+
 }
 
 .book:hover {
@@ -86,9 +111,9 @@
 }
 
 
-.search svg, .profile svg, .home svg  {
-    width: 40px;
-    height: 40px;
+.search svg, .profile svg, .home svg,.book svg  {
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .bordo-left:hover {
@@ -97,10 +122,16 @@
 
 }
 
+.play {
+    display: none;
+}
+
 .download{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    align-items: center;
+    padding: 0 8px;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -114,11 +145,16 @@
 
 }
 
+.download p{
+    margin-left: 10px;
+}
+
 .profile{
     display: flex;
     justify-content: center;
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.5);
+    align-items: center;
 }
 
 .profile:hover {
@@ -142,7 +178,10 @@
 
 
 
+
+
 main{
+
 
     margin-left: 15%;
     width:85%;
@@ -343,12 +382,16 @@ footer {
 
 
 
-
 @media screen and (min-width: 576px) {
 
 
 
+
+
+
 }
+
+
 
 
 
@@ -371,6 +414,60 @@ footer {
         display: none;
     }
 
+    .tablet {
+        display: block;
+    }
+
+    .flex_centra-items{
+        justify-content: flex-start;
+    }
+
+    .book, .home, .search {
+            padding-left: 20px;
+    }
 
 
+    .spotify svg{
+        display: block;
+        color: white;
+        height: 80px;
+        width: 160px;
+
+    }
+
+    .spotify .fa-spotify{
+        display:none;
+
+    }
+    .play{
+        display: block;
+        padding-left: 20px;
+            color: rgba(255, 255, 255, 0.5);
+    }
+
+    .play p:hover{
+        color: white;
+        cursor: pointer;
+    }
+
+    .play h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .play p{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    main {
+        height: 100%;
+    }
 }
