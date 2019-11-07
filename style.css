@@ -22,8 +22,121 @@
     position: fixed;
     left: 0;
     top: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
 
 }
+
+
+
+.spotify {
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+
+
+}
+
+.spotify .fa-spotify{
+    margin:auto;
+
+}
+
+.home{
+
+    padding:10px 0;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.home:hover {
+    color:white;
+}
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding:  10px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.search:hover {
+    color:white;
+}
+
+
+.book {
+    display: flex;
+    justify-content: center;
+    padding:  10px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.book:hover {
+    color:white;
+}
+
+
+.search svg, .profile svg, .home svg  {
+    width: 40px;
+    height: 40px;
+}
+
+.bordo-left:hover {
+    border-left: 2px solid #20CB1B;
+    cursor: pointer;
+
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.download:hover {
+    color:white;
+}
+
+.download svg {
+    width: 25px;
+    height: 25px;
+
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.profile:hover {
+    color:white;
+}
+
+.sidebar hr {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_sidebar{
+    margin:0 auto;
+    width: 80%;
+
+
+}
+
+
 
 
 
@@ -126,8 +239,8 @@ nav i.fas{
 
 .rotondo {
 
-    height: 150px;
-    width:150px;
+    height: 120px;
+    width:120px;
     border-radius: 100%;
     position: relative;
     background-position: center;
@@ -232,6 +345,8 @@ footer {
 
 
 @media screen and (min-width: 576px) {
+
+
 
 }
 
