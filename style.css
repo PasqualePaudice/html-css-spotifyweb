@@ -33,7 +33,6 @@ main{
 
     margin-left: 15%;
     width:85%;
-    height: 100vh;
     background: rgb(0,0,0);
     background: linear-gradient(335deg, rgba(0,0,0,1) 0%, rgba(165,135,23,1) 100%);
     display: inline-block;
@@ -42,7 +41,7 @@ main{
 
 nav{
     width:60%;
-    height: 8%;
+    height: 50px;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -55,7 +54,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: rgba(255, 255,255, 0.7);
-    font-size:20px;
+    font-size:12px;
     position: relative;
 
 }
@@ -76,6 +75,122 @@ nav a:hover span{
     left: 50%;
     transform: translateX(-50%);
 }
+
+
+.container{
+    width: 85%;
+    margin: 40px auto 40px auto;
+    font-size: 25px;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.container2 p{
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+
+}
+
+.cont-rotondo{
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.rotondo {
+
+    height: 150px;
+    width:150px;
+    border-radius: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.rotondo:hover .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    cursor: pointer;
+
+
+}
+
+.rotondo .overlay i{
+    display:none;
+}
+
+
+.rotondo:hover .overlay i{
+    margin: auto;
+    font-size: 50px;
+    color: rgba(255,255,255, 0.8);
+    display: block;
+
+}
+
+#rotondo1{
+    background-image: url("https://cdnrockol-rockolcomsrl.netdna-ssl.com/F9ZLtJ72yefjpwS46Kk-kj0J5iM=/414x310/smart/rockol-img/img/foto/upload/photo-dont-smil-300cmyk-foto-di-cameron-postforoosh.jpg");
+
+}
+
+#rotondo2 {
+    background-image: url("https://i.scdn.co/image/36c83f834e91b4ea83160c139909a78ab92c3fe6");
+
+}
+#rotondo3 {
+    background-image: url("https://www.repstatic.it/content/nazionale/img/2017/10/21/120848663-865ed3b8-e376-4abd-96e9-45d4a358de29.jpg");
+
+}
+#rotondo4 {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61iP-XswkbL._SX466_.jpg");
+
+
+}
+
+#rotondo5 {
+    background-image: url("https://pbs.twimg.com/profile_images/1124221899532328961/-qb5hAoY_400x400.png");
+
+}
+#rotondo6 {
+    background-image: url("https://pbs.twimg.com/profile_images/1087702150682234880/MsUftuRn_400x400.jpg");
+
+
+}
+#rotondo7 {
+    background-image: url("https://c-sf.smule.com/sf/s25/arr/9b/b1/dd26f2d4-4c93-49d2-a100-af46374d3fff.jpg");
+
+
+}
+#rotondo8 {
+    background-image: url("https://c-sf.smule.com/sf/s80/arr/b0/cb/c8f57b5c-2546-42fa-9a88-f80e90f9a4a1.jpg");
+
+
+}
+
+#rotondo9 {
+    background-image: url("https://cdnrockol-rockolcomsrl.netdna-ssl.com/YlNqv1IC4EYER6gtL6vLW3lDcCQ=/414x310/smart/rockol-img/img/foto/upload/is-xxxtentacion-dead.jpg");
+
+
+}
+
+
 
 
 
